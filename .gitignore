@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+server/data/reloop.json
+server/data/.session-secret
+server/data/uploads/*
+!server/data/uploads/.gitkeep
+.DS_Store
+
+backups/
+*.sql.gz
+*.tar.gz
+load/results/*.json
+.playwright-data/

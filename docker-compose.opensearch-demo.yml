@@ -1,0 +1,22 @@
+# Local-only OpenSearch demo for ReLoop. This is the open-source Build It path;
+# it does not require AWS credentials or deploy any AWS-managed resources.
+services:
+  opensearch:
+    image: opensearchproject/opensearch:2.19.1
+    container_name: reloop-opensearch-demo
+    environment:
+      discovery.type: single-node
+      DISABLE_SECURITY_PLUGIN: "true"
+      OPENSEARCH_JAVA_OPTS: "-Xms512m -Xmx512m"
+    ports:
+      - "127.0.0.1:9200:9200"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:9200/_cluster/health >/dev/null || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+    restart: unless-stopped

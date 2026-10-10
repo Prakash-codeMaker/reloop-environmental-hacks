@@ -1,0 +1,718 @@
+{
+  "generatedAt": "2026-10-09T17:27:39.000Z",
+  "filesScanned": [
+    "src/main.jsx"
+  ],
+  "candidateCount": 118,
+  "caveat": "Heuristic scan only. It can miss dynamic expressions and can flag non-user-facing strings. Review candidates before changing source.",
+  "candidates": [
+    {
+      "file": "src/main.jsx",
+      "line": 48,
+      "kind": "jsx-text",
+      "text": "reloop"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 48,
+      "kind": "jsx-text",
+      "text": "MATERIAL WORKSPACE"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 52,
+      "kind": "message",
+      "text": "An account with this email already exists. Sign in with your existing password, or use Forgot password if you cannot remember it."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "jsx-text",
+      "text": "reloop"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "jsx-text",
+      "text": "MATERIAL WORKSPACE"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "jsx-text",
+      "text": "Language"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "jsx-text",
+      "text": "}{tab==='login'&&!resetToken&&"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "jsx-text",
+      "text": "Your account belongs to one role. You will only see that role's dashboard and actions. Administrator access is available only to provisioned admin accounts."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "jsx-text",
+      "text": "}{!resetToken&&"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "jsx-text",
+      "text": "(at least {resetToken?'12':'10'} characters)"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "jsx-text",
+      "text": "}{notice&&"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "jsx-text",
+      "text": "}{!resetToken&&tab==='login'&&error.toLowerCase().includes('verify your email')&&"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "jsx-text",
+      "text": "© 2026 ReLoop · Material coordination workspace"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "aria-label",
+      "text": "Language"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "placeholder",
+      "text": "e.g. Northstar Retail"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 55,
+      "kind": "placeholder",
+      "text": "you@company.com"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 77,
+      "kind": "message",
+      "text": "Choose a JPG, PNG or PDF document first."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 77,
+      "kind": "message",
+      "text": "Choose a file smaller than 6 MB."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 77,
+      "kind": "message",
+      "text": "Document submitted. ReLoop will show the review status here."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 80,
+      "kind": "jsx-text",
+      "text": ":check.status==='rejected'?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 80,
+      "kind": "jsx-text",
+      "text": ":check.status==='in_review'?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 81,
+      "kind": "jsx-text",
+      "text": "JPG, PNG or PDF · up to 6 MB"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 82,
+      "kind": "jsx-text",
+      "text": "Submitted"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 83,
+      "kind": "jsx-text",
+      "text": "Documents are visible only to authorized ReLoop reviewers. Do not upload unrelated personal information. Actual verification depends on configured email and review providers."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 155,
+      "kind": "jsx-text",
+      "text": ";return"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 164,
+      "kind": "message",
+      "text": "Switched to ${roleMeta[next].label} workspace"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 171,
+      "kind": "message",
+      "text": "Offer submitted to the material owner."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 171,
+      "kind": "message",
+      "text": "Offer ${status.toLowerCase()}."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 174,
+      "kind": "message",
+      "text": "This batch is no longer available. Refresh and try again."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 183,
+      "kind": "message",
+      "text": "Offer accepted. ${offer.buyer} has been selected."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 184,
+      "kind": "message",
+      "text": "Offer ${status.toLowerCase()}."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 189,
+      "kind": "message",
+      "text": "Material listing published to the shared workspace."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 193,
+      "kind": "message",
+      "text": "Your material listing is saved in the demo workspace."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 197,
+      "kind": "message",
+      "text": "Demo data restored."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 201,
+      "kind": "jsx-text",
+      "text": "Skip to main content"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 203,
+      "kind": "jsx-text",
+      "text": "reloop"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 203,
+      "kind": "jsx-text",
+      "text": "MATERIAL WORKSPACE"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 204,
+      "kind": "aria-label",
+      "text": "Switch workspace"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 205,
+      "kind": "jsx-text",
+      "text": "Switch roles to preview separate journeys. These are not three permissions on one account."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 208,
+      "kind": "aria-label",
+      "text": "Open help"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 212,
+      "kind": "jsx-text",
+      "text": "New offer received"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 212,
+      "kind": "jsx-text",
+      "text": "Pune Fibre Works made an offer on RL-1042."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 212,
+      "kind": "jsx-text",
+      "text": "Just now · Demo activity"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 212,
+      "kind": "jsx-text",
+      "text": "Collection reminder"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 212,
+      "kind": "jsx-text",
+      "text": "RL-1039 is scheduled for today."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 212,
+      "kind": "jsx-text",
+      "text": "Today · Demo activity"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 212,
+      "kind": "message",
+      "text": "Speech playback is not available in this browser."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 215,
+      "kind": "aria-label",
+      "text": "Dismiss prototype notice"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 216,
+      "kind": "jsx-text",
+      "text": ":page==='Verification'&&role!=='admin'?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 216,
+      "kind": "jsx-text",
+      "text": ":page==='Offers'&&role==='generator'?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 216,
+      "kind": "jsx-text",
+      "text": ":page==='Partners'&&role==='admin'?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 216,
+      "kind": "jsx-text",
+      "text": ":page==='Audit log'&&role==='admin'?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 216,
+      "kind": "jsx-text",
+      "text": ":((page==='Report an issue'&&role!=='admin')||(page==='Issues'&&role==='admin'))?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 217,
+      "kind": "jsx-text",
+      "text": "© 2026 ReLoop · Material coordination workspace"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 217,
+      "kind": "jsx-text",
+      "text": "Built around clarity, traceability and trust"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 222,
+      "kind": "title",
+      "text": "ReLoop help"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 223,
+      "kind": "jsx-text",
+      "text": ":role!=='admin'&&"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 224,
+      "kind": "aria-label",
+      "text": "Dismiss message"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 238,
+      "kind": "jsx-text",
+      "text": "Current workspace records"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 238,
+      "kind": "jsx-text",
+      "text": "Open workspace list"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 238,
+      "kind": "aria-label",
+      "text": "View more records"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 239,
+      "kind": "jsx-text",
+      "text": ":role==='buyer'?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 239,
+      "kind": "jsx-text",
+      "text": ":role==='collector'?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 239,
+      "kind": "title",
+      "text": "Check completed records"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 239,
+      "kind": "title",
+      "text": "Browse available material"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 245,
+      "kind": "jsx-text",
+      "text": ":type==='plastic'?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 247,
+      "kind": "jsx-text",
+      "text": "tab==='All'||o.status===tab);return"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 247,
+      "kind": "jsx-text",
+      "text": "x.id===o.batchId);return"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 247,
+      "kind": "jsx-text",
+      "text": "Rates shown here are sample offers. Actual amounts may depend on final accepted weight, condition, transport and agreed terms."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 259,
+      "kind": "jsx-text",
+      "text": "Showing {batches.length} records in this prototype"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Corrugated cardboard"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Mixed cardboard"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Office paper"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Mixed paper"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "PET bottles"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Rigid plastic"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "kg"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "tonnes"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Clean, flattened"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Sorted, dry"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Mixed, needs sorting"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Bundled"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Other — describe below"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "jsx-text",
+      "text": "Quantity is an estimate. Final weight and commercial terms should be confirmed during the transaction."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "aria-label",
+      "text": "Close dialog"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "aria-label",
+      "text": "Quantity unit"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 271,
+      "kind": "placeholder",
+      "text": "e.g. Weekdays, 10 AM–4 PM"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 276,
+      "kind": "message",
+      "text": "Enter a valid actual weight before completing."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 276,
+      "kind": "message",
+      "text": "Confirm handover evidence before completing."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 276,
+      "kind": "message",
+      "text": "Upload a JPG, PNG or PDF handover file before completing."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 276,
+      "kind": "message",
+      "text": "Batch ${batch.id} updated to ${nextStatus}."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 278,
+      "kind": "jsx-text",
+      "text": "estimated"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 278,
+      "kind": "aria-label",
+      "text": "Close batch details"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 280,
+      "kind": "jsx-text",
+      "text": "After collection, record the accepted quantity and update the job status."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 280,
+      "kind": "jsx-text",
+      "text": "Upload handover evidence (JPG, PNG or PDF) *"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 280,
+      "kind": "jsx-text",
+      "text": "Maximum 6 MB. File is stored with the transaction."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 280,
+      "kind": "message",
+      "text": "Pickup marked as collected. Add the final weight and evidence to complete the record."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 280,
+      "kind": "message",
+      "text": "Enter a valid actual weight."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 280,
+      "kind": "message",
+      "text": "Confirm handover evidence first."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 280,
+      "kind": "message",
+      "text": "Upload handover evidence first."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 281,
+      "kind": "message",
+      "text": "Collector assigned and pickup scheduled."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 282,
+      "kind": "message",
+      "text": "Enter a valid offer rate."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 291,
+      "kind": "message",
+      "text": "Please describe the issue in a few words."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 292,
+      "kind": "message",
+      "text": "Issue ${issue.id} updated."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 294,
+      "kind": "jsx-text",
+      "text": "Your reference:"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 294,
+      "kind": "jsx-text",
+      "text": ". Keep this reference if you need to follow up."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 294,
+      "kind": "aria-label",
+      "text": "Dismiss confirmation"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 295,
+      "kind": "placeholder",
+      "text": "Describe the issue in your own words. Local language is welcome."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 296,
+      "kind": "jsx-text",
+      "text": "}{loading&&"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 296,
+      "kind": "jsx-text",
+      "text": "}{issues.length===0&&!loading?"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 296,
+      "kind": "jsx-text",
+      "text": "In review"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 300,
+      "kind": "aria-label",
+      "text": "Close dialog"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 301,
+      "kind": "jsx-text",
+      "text": "tab==='All partners'||p[1].toLowerCase().includes(tab.slice(0,-1).toLowerCase())||(tab==='Buyers'&&p[1].includes('Buyer')));return"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 301,
+      "kind": "jsx-text",
+      "text": "Role"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 301,
+      "kind": "jsx-text",
+      "text": "}{rows.length===0&&!loading&&"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 301,
+      "kind": "message",
+      "text": "Partner marked ${status}."
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 302,
+      "kind": "jsx-text",
+      "text": "({id:b.id,action:b.status,entityType:'batch',entityId:b.id,details:{material:b.material,seller:b.seller},createdAt:b.date}));return"
+    },
+    {
+      "file": "src/main.jsx",
+      "line": 302,
+      "kind": "jsx-text",
+      "text": ")}{rows.length===0&&!error&&"
+    }
+  ]
+}

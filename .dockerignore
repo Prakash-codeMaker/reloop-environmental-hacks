@@ -1,0 +1,9 @@
+node_modules
+.git
+.env
+backups
+server/data/reloop.json
+server/data/.session-secret
+server/data/uploads/*
+!server/data/uploads/.gitkeep
+dist

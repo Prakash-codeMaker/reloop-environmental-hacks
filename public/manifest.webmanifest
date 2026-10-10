@@ -1,0 +1,12 @@
+{
+  "name": "ReLoop — Material Workspace",
+  "short_name": "ReLoop",
+  "description": "Coordinate recyclable material, offers, collections and handover records.",
+  "lang": "en-IN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f8f5",
+  "theme_color": "#173d30",
+  "icons": [{"src":"/reloop-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
